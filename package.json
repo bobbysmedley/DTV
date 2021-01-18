@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-image-loader": "^1.0.4",
+    "vue-load-image": "^0.1.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

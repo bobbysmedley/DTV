@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-center mt-8">
-      <img src=".\assets\dtvlogo1.png" width="200" height="200"/>
+      <img src="/images/dtv.png" width="200" height="200"/>
     </div>
     <div class="flex justify-center my-8">
       <Search @onSubmit="handleSubmit"/>
@@ -20,16 +20,18 @@ export default {
   name: 'App',
   data() {
     return {
-      url: ""
+      url: "",
+      value: ""
     };
   },
   components: {
     Search,
-    Bracket
+    Bracket,
   },
   methods: {
     handleSubmit(value) {
       this.url = `http://challonge.com/${value}/module`;
+      this.value = value;
     }
   }
 }
