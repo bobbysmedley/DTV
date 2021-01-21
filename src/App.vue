@@ -6,7 +6,7 @@
     <div class="flex justify-center my-8">
       <Search @onSubmit="handleSubmit"/>
     </div>
-    <div class="flex justify-center">
+    <div class="flex justify-center pb-10">
       <Bracket :url="url" />
     </div>
   </div>
