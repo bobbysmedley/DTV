@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="flex justify-center mt-8">
-      <img src="/images/dtv.png" width="200" height="200"/>
+    <div class="flex justify-center mt-8 logo">
+      <img src="/images/dtv.png" w-full h-auto md:width="200" md:height="200"/>
     </div>
     <div class="flex justify-center my-8">
       <Search @onSubmit="handleSubmit"/>
@@ -54,5 +54,11 @@ export default {
     100% {
       background-position: 0% 50%;
     }
+}
+
+.logo {
+  max-width: 250px;
+  margin: auto;
+  padding: 25px;
 }
 </style>
