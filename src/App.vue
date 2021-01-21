@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-center mt-8 logo">
-      <img src="/images/dtv.png" w-full h-auto md:width="200" md:height="200"/>
+      <img src="/images/dtv.png" md:width="200" md:height="200"/>
     </div>
     <div class="flex justify-center my-8">
       <Search @onSubmit="handleSubmit"/>
