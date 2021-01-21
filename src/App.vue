@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     handleSubmit(value) {
-      this.url = `http://challonge.com/${value}/module`;
+      this.url = `https://challonge.com/${value}/module`;
       this.value = value;
     }
   }
