@@ -3,7 +3,7 @@
     <div class="flex justify-center mt-8 logo">
       <img src="/images/dtv.png" md:width="200" md:height="200"/>
     </div>
-    <div class="flex justify-center my-8">
+    <div class="flex justify-center my-5">
       <Search @onSubmit="handleSubmit"/>
     </div>
     <div class="flex justify-center pb-10">
@@ -59,6 +59,6 @@ export default {
 .logo {
   max-width: 250px;
   margin: auto;
-  padding: 25px;
+  padding: 25px 25px 0px;
 }
 </style>
